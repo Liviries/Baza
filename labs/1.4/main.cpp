@@ -1,96 +1,78 @@
-/**
+﻿/**
  * Done by:
- * Student Name: Severyn Kotyhoroshko
+ * Student Name: Yaroslav Ivanchenko
  * Student Group: 123
  * Lab 1.4
  */
 
 #include <iostream>
-
 using namespace std;
 
 int main() {
-    // Comment to local scope 1
-    {
-        int num = 10;
-        int* ptr = &num; // ptr now holds the address of num
+    setlocale(LC_ALL, "uk_UA.UTF-8");
 
-        cout << "Value of num: " << num << endl;        // Outputs: 10
-        cout << "Address of num: " << ptr << endl;      // Outputs the memory address of num
-        cout << "Value at the address stored in ptr: " << *ptr << endl; // Outputs: 10
+#ifdef _WIN32
+    system("chcp 65001");
+#endif
+    system("cls");
 
-        num++;
-        cout << num << endl;
+        // 1. Опис змінних напередвизначених типів (табл. 9)
+        unsigned short wA;
+        int nB;
+        float fltC;
+        double dblD;
 
-        // delete ptr;         // Deallocates the memory
-        ptr = nullptr;         // Good practice to avoid dangling ptrs
-        cout << "Nullified ptr: " << ptr << endl;
+        // 2. Опис вказівних змінних відповідних типів (табл. 9)
+        unsigned short* pwA;
+        int* pnB;
+        float* pfltC;
+        double* pdblD;
+
+        // 3. Опис нетипізованої вказівної змінної
+        void* pV;
+
+        // 4. Ініціювання вказівних змінних адресами змінних
+        pwA = &wA;
+        pnB = &nB;
+        pfltC = &fltC;
+        pdblD = &dblD;
+
+        // 5. Ініціювання змінних за допомогою операції розіменування
+        *pwA = 6692;
+        *pnB = 1226;
+        *pfltC = -896.333333f;
+        *pdblD = 6.9e-86;
+
+        // Виведення змінних
+        std::wcout << L"Значення змінних:" << std::endl;
+        std::wcout << L"unsigned short: " << *pwA << std::endl;
+        std::wcout << L"int: " << *pnB << std::endl;
+        std::wcout << L"float: " << *pfltC << std::endl;
+        std::wcout << L"double: " << *pdblD << std::endl;
+
+        // 6. Визначення розміру всіх змінних
+        std::wcout << L"\nРозміри змінних:" << std::endl;
+        std::wcout << L"Розмір wA: " << sizeof(wA) << " байт" << std::endl;
+        std::wcout << L"Розмір nB: " << sizeof(nB) << " байт" << std::endl;
+        std::wcout << L"Розмір fltC: " << sizeof(fltC) << " байт" << std::endl;
+        std::wcout << L"Розмір dblD: " << sizeof(dblD) << " байт" << std::endl;
+
+        std::wcout << L"\nРозміри вказівних змінних:" << std::endl;
+        std::wcout << L"Розмір pwA: " << sizeof(pwA) << " байт" << std::endl;
+        std::wcout << L"Розмір pnB: " << sizeof(pnB) << " байт" << std::endl;
+        std::wcout << L"Розмір pfltC: " << sizeof(pfltC) << " байт" << std::endl;
+        std::wcout << L"Розмір pdblD: " << sizeof(pdblD) << " байт" << std::endl;
+
+        // 7. Ініціювання нетипізованої вказівної змінної
+        pV = pwA;
+        std::wcout << L"\nНетипізована вказівна змінна pV вказує на pwA: " << *((unsigned short*)pV) << std::endl;
+
+        pV = pnB;
+        std::wcout << L"Нетипізована вказівна змінна pV вказує на pnB: " << *((int*)pV) << std::endl;
+
+        // 8. Опис посилання
+        unsigned short& refWA = wA;
+        std::wcout << L"\nПосилання refWA: " << refWA << std::endl;
+
+        return 0;
     }
-
-    // Comment to local scope 2
-    {
-        cout << "Pointer Arithmetic" << endl;
-        int arr[] = {1, 2, 3, 4, 5};
-
-        cout << "sizeof arr = " << sizeof(arr) << endl;
-        int* ptr = arr;         // Points to the first element of the array
-
-        const int firstEl = arr[0];
-
-        cout << arr[0] << endl;   // Outputs: 1
-        cout << ptr << endl;   // Outputs: Address
-        cout << *ptr << endl;   // Outputs: 1
-        ptr++;                  // Moves to the next element
-        cout << *ptr << endl;   // Outputs: 2
-
-        ptr = nullptr;         // Good practice to avoid dangling ptrs
-        cout << "sizeof arr = " << sizeof(arr) << endl;
-    }
-
-    // Comment to local scope 3
-    {
-        cout << "Dynamic Memory Allocation for INT" << endl;
-        int* ptr = new int;    // Allocates memory for a single integer
-        *ptr = 20;             // Sets the value of the allocated memory
-
-        cout << *ptr << endl;  // Outputs: 20
-
-        delete ptr;            // Deallocates the memory
-        ptr = nullptr;         // Good practice to avoid dangling ptrs
-    }
-
-
-    // Comment to local scope 4
-    {
-        cout << "Dynamic Memory Allocation for ARR" << endl;
-        int* arr = new int[5]; // Allocates memory for an array of 5 integers
-
-        cout << "sizeof *arr = " << sizeof(*arr) << endl;
-        cout << "sizeof arr = " << sizeof(arr) << endl;
-
-        cout << arr << endl;
-        for(int i = 0; i < 5; i++) {
-            arr[i] = i + 1;    // Initializes array
-        }
-
-        delete[] arr;          // Deallocates the array memory
-        arr = nullptr;
-        cout << arr << endl;
-        cout << "sizeof *arr = " << sizeof(*arr) << endl;
-        cout << "sizeof arr = " << sizeof(arr) << endl;
-    }
-
-    // Comment to local scope 5
-    {
-        cout << "Pointers to Pointers" << endl;
-        int num = 10;
-        int* ptr = &num;
-        int** ptrToPtr = &ptr;
-
-        cout << **ptrToPtr << endl; // Outputs: 10
-        ptr = nullptr;
-        ptrToPtr = nullptr;
-    }
-
-    return 0;
-}

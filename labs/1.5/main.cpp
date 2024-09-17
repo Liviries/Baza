@@ -1,6 +1,6 @@
 /**
  * Done by:
- * Student Name: Severyn Kotyhoroshko
+ * Student Name: Y I
  * Student Group: 123
  * Lab 1.5
  */
