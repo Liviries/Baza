@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include <cmath> 
+#include <cmath>
 
 
 // Визначення π вручну
