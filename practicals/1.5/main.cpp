@@ -1,54 +1,75 @@
-/**
- * Done by:
- * Student Name: Severyn Kotyhoroshko
- * Student Group: 123
- * Lab 1.5
- */
-
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
+#include <limits>
 
-using namespace std;
+int fMIN(int A[], int n) {
+    int minVal = A[0];
+    for (int i = 1; i < n; ++i) {
+        if (A[i] < minVal) {
+            minVal = A[i];
+        }
+    }
+    return minVal;
+}
 
-void initRandomizer() {
-    // Seed the random number generator with the current time
-    srand(time(0));  // srand(time(NULL)) could also be used
+int fMAX(int A[], int n) {
+    int maxIndex = -1;
+    int maxVal = std::numeric_limits<int>::min();
+    for (int i = 0; i < n; ++i) {
+        if (A[i] > 0 && A[i] > maxVal) {
+            maxVal = A[i];
+            maxIndex = i;
+        }
+    }
+    return maxIndex;
+}
+
+int fMINb(int A[], int n, int P) {
+    int minVal = std::numeric_limits<int>::max();
+    for (int i = 0; i < n; ++i) {
+        if (A[i] > P && A[i] < minVal) {
+            minVal = A[i];
+        }
+    }
+    return minVal == std::numeric_limits<int>::max() ? -1 : minVal;
+}
+
+
+int flOCC(int A[], int n, int P) {
+    int lastIndex = -1;
+    for (int i = 0; i < n; ++i) {
+        if (A[i] == P) {
+            lastIndex = i;
+        }
+    }
+    return lastIndex;
+}
+
+
+int cOCC(int A[], int n, int P) {
+    int count = 0;
+    for (int i = 0; i < n; ++i) {
+        if (A[i] == P) {
+            ++count;
+        }
+    }
+    return count;
 }
 
 int main() {
-    // Задано послідовність значень А[n]. Знайти мінімальне значення у послідовності.
-    {
-        initRandomizer();
+    setlocale(LC_ALL, "uk_UA.UTF-8");
+#ifdef _WIN32
+    system("chcp 65001");
+    system("cls");
+#endif
+    const int SIZE = 10;
+    int A[SIZE] = { 3, -1, 7, 4, 5, -2, 6, 8, -9, 2 };
+    int P = 4;
 
-        int n;
-        cout << "Enter the length of the sequence: ";
-        cin >> n;
-
-        int* arr = new int[n];
-        // Populate the array with random values
-        for (int i = 0; i < n; i++) {
-            arr[i] = rand() % 100;
-        }
-
-        // cout the array
-        for (int i = 0; i < n; i++) {
-            cout << arr[i] << " ";
-        }
-        cout << endl;
-
-        int min = arr[0];
-        for (int i = 1; i < n; i++) {
-            if (arr[i] < min) {
-                min = arr[i];
-            }
-        }
-
-        cout << "The minimum value in the sequence is: " << min << endl;
-
-        delete[] arr;
-        arr = nullptr;
-    }
+    std::wcout << L"Мінімальне значення: " << fMIN(A, SIZE) << std::endl;
+    std::wcout << L"Індекс найбільшого додатного значення: " << fMAX(A, SIZE) << std::endl;
+    std::wcout << L"Мінімальне значення більше " << P << ": " << fMINb(A, SIZE, P) << std::endl;
+    std::wcout << L"Індекс останнього входження " << P << ": " << flOCC(A, SIZE, P) << std::endl;
+    std::wcout << L"Кількість входжень " << P << ": " << cOCC(A, SIZE, P) << std::endl;
 
     return 0;
 }
