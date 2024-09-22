@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Baza.dir/labs/1.4/main.cpp.o CMakeFiles/Baza.dir/labs/1.5/FirstPart.cpp.o CMakeFiles/Baza.dir/labs/1.6/ceasar.cpp.o CMakeFiles/Baza.dir/labs/1.6/types_cast.cpp.o CMakeFiles/Baza.dir/practicals/1.4/main.cpp.o CMakeFiles/Baza.dir/practicals/1.5/main.cpp.o CMakeFiles/Baza.dir/labs/1.5/SecondPart.cpp.o -o Baza

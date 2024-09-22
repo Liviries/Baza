@@ -56,20 +56,15 @@ int cOCC(int A[], int n, int P) {
 }
 
 int main() {
-    setlocale(LC_ALL, "uk_UA.UTF-8");
-#ifdef _WIN32
-    system("chcp 65001");
-    system("cls");
-#endif
     const int SIZE = 10;
     int A[SIZE] = { 3, -1, 7, 4, 5, -2, 6, 8, -9, 2 };
     int P = 4;
 
-    std::wcout << L"Мінімальне значення: " << fMIN(A, SIZE) << std::endl;
-    std::wcout << L"Індекс найбільшого додатного значення: " << fMAX(A, SIZE) << std::endl;
-    std::wcout << L"Мінімальне значення більше " << P << ": " << fMINb(A, SIZE, P) << std::endl;
-    std::wcout << L"Індекс останнього входження " << P << ": " << flOCC(A, SIZE, P) << std::endl;
-    std::wcout << L"Кількість входжень " << P << ": " << cOCC(A, SIZE, P) << std::endl;
+    std::cout << "Мінімальне значення: " << fMIN(A, SIZE) << std::endl;
+    std::cout << "Індекс найбільшого додатного значення: " << fMAX(A, SIZE) << std::endl;
+    std::cout << "Мінімальне значення більше " << P << ": " << fMINb(A, SIZE, P) << std::endl;
+    std::cout << "Індекс останнього входження " << P << ": " << flOCC(A, SIZE, P) << std::endl;
+    std::cout << "Кількість входжень " << P << ": " << cOCC(A, SIZE, P) << std::endl;
 
     return 0;
 }

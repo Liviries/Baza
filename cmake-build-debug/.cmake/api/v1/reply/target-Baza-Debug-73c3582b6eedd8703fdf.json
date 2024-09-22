@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Baza.exe"
-		},
-		{
-			"path" : "Baza.pdb"
+			"path" : "Baza"
 		}
 	],
 	"backtrace" : 1,
@@ -57,7 +54,8 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6
 			]
 		}
 	],
@@ -73,16 +71,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "Baza",
-	"nameOnDisk" : "Baza.exe",
+	"nameOnDisk" : "Baza",
 	"paths" : 
 	{
 		"build" : ".",
@@ -99,7 +93,8 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6
 			]
 		}
 	],
@@ -114,7 +109,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "labs/1.5/main.cpp",
+			"path" : "labs/1.5/FirstPart.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -139,6 +134,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "practicals/1.5/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "labs/1.5/SecondPart.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
