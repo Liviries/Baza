@@ -62,6 +62,5 @@ int main() {
     for(int i = 0; i < 5; i++) {
         std::cout << "Рядок " << (i + 1) << ": " << maxInRow[i] << std::endl;
     }
-
     return 0;
 }
