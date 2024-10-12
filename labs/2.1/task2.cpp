@@ -43,6 +43,5 @@ int main() {
     std::cout << "\nMаксимальні елементи: " << max1 << " та " << max2 << std::endl;
 
     std::cout << "Сума двох максимальних елементів: " << sum << std::endl;
-
     return 0;
 }

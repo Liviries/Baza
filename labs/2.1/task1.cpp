@@ -44,6 +44,5 @@ int main() {
     for (int i = 0; i < 5; i++) {
         std::cout << "array[" << i << "] = " << array[i] << "\n";
     }
-
     return 0;
 }
