@@ -201,53 +201,341 @@ labs/1.5/SecondPart.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.5/SecondPart.cpp.s
 .PHONY : labs/1.5/SecondPart.cpp.s
 
-labs/1.6/ceasar.o: labs/1.6/ceasar.cpp.o
-.PHONY : labs/1.6/ceasar.o
+labs/1.6/part1.o: labs/1.6/part1.cpp.o
+.PHONY : labs/1.6/part1.o
 
 # target to build an object file
-labs/1.6/ceasar.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.6/ceasar.cpp.o
-.PHONY : labs/1.6/ceasar.cpp.o
+labs/1.6/part1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.6/part1.cpp.o
+.PHONY : labs/1.6/part1.cpp.o
 
-labs/1.6/ceasar.i: labs/1.6/ceasar.cpp.i
-.PHONY : labs/1.6/ceasar.i
+labs/1.6/part1.i: labs/1.6/part1.cpp.i
+.PHONY : labs/1.6/part1.i
 
 # target to preprocess a source file
-labs/1.6/ceasar.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.6/ceasar.cpp.i
-.PHONY : labs/1.6/ceasar.cpp.i
+labs/1.6/part1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.6/part1.cpp.i
+.PHONY : labs/1.6/part1.cpp.i
 
-labs/1.6/ceasar.s: labs/1.6/ceasar.cpp.s
-.PHONY : labs/1.6/ceasar.s
+labs/1.6/part1.s: labs/1.6/part1.cpp.s
+.PHONY : labs/1.6/part1.s
 
 # target to generate assembly for a file
-labs/1.6/ceasar.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.6/ceasar.cpp.s
-.PHONY : labs/1.6/ceasar.cpp.s
+labs/1.6/part1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.6/part1.cpp.s
+.PHONY : labs/1.6/part1.cpp.s
 
-labs/1.6/types_cast.o: labs/1.6/types_cast.cpp.o
-.PHONY : labs/1.6/types_cast.o
+labs/1.6/part2.o: labs/1.6/part2.cpp.o
+.PHONY : labs/1.6/part2.o
 
 # target to build an object file
-labs/1.6/types_cast.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.6/types_cast.cpp.o
-.PHONY : labs/1.6/types_cast.cpp.o
+labs/1.6/part2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.6/part2.cpp.o
+.PHONY : labs/1.6/part2.cpp.o
 
-labs/1.6/types_cast.i: labs/1.6/types_cast.cpp.i
-.PHONY : labs/1.6/types_cast.i
+labs/1.6/part2.i: labs/1.6/part2.cpp.i
+.PHONY : labs/1.6/part2.i
 
 # target to preprocess a source file
-labs/1.6/types_cast.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.6/types_cast.cpp.i
-.PHONY : labs/1.6/types_cast.cpp.i
+labs/1.6/part2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.6/part2.cpp.i
+.PHONY : labs/1.6/part2.cpp.i
 
-labs/1.6/types_cast.s: labs/1.6/types_cast.cpp.s
-.PHONY : labs/1.6/types_cast.s
+labs/1.6/part2.s: labs/1.6/part2.cpp.s
+.PHONY : labs/1.6/part2.s
 
 # target to generate assembly for a file
-labs/1.6/types_cast.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.6/types_cast.cpp.s
-.PHONY : labs/1.6/types_cast.cpp.s
+labs/1.6/part2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.6/part2.cpp.s
+.PHONY : labs/1.6/part2.cpp.s
+
+labs/1.7/task1.o: labs/1.7/task1.cpp.o
+.PHONY : labs/1.7/task1.o
+
+# target to build an object file
+labs/1.7/task1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.7/task1.cpp.o
+.PHONY : labs/1.7/task1.cpp.o
+
+labs/1.7/task1.i: labs/1.7/task1.cpp.i
+.PHONY : labs/1.7/task1.i
+
+# target to preprocess a source file
+labs/1.7/task1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.7/task1.cpp.i
+.PHONY : labs/1.7/task1.cpp.i
+
+labs/1.7/task1.s: labs/1.7/task1.cpp.s
+.PHONY : labs/1.7/task1.s
+
+# target to generate assembly for a file
+labs/1.7/task1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.7/task1.cpp.s
+.PHONY : labs/1.7/task1.cpp.s
+
+labs/1.7/task2.o: labs/1.7/task2.cpp.o
+.PHONY : labs/1.7/task2.o
+
+# target to build an object file
+labs/1.7/task2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.7/task2.cpp.o
+.PHONY : labs/1.7/task2.cpp.o
+
+labs/1.7/task2.i: labs/1.7/task2.cpp.i
+.PHONY : labs/1.7/task2.i
+
+# target to preprocess a source file
+labs/1.7/task2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.7/task2.cpp.i
+.PHONY : labs/1.7/task2.cpp.i
+
+labs/1.7/task2.s: labs/1.7/task2.cpp.s
+.PHONY : labs/1.7/task2.s
+
+# target to generate assembly for a file
+labs/1.7/task2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.7/task2.cpp.s
+.PHONY : labs/1.7/task2.cpp.s
+
+labs/1.7/task3.o: labs/1.7/task3.cpp.o
+.PHONY : labs/1.7/task3.o
+
+# target to build an object file
+labs/1.7/task3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.7/task3.cpp.o
+.PHONY : labs/1.7/task3.cpp.o
+
+labs/1.7/task3.i: labs/1.7/task3.cpp.i
+.PHONY : labs/1.7/task3.i
+
+# target to preprocess a source file
+labs/1.7/task3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.7/task3.cpp.i
+.PHONY : labs/1.7/task3.cpp.i
+
+labs/1.7/task3.s: labs/1.7/task3.cpp.s
+.PHONY : labs/1.7/task3.s
+
+# target to generate assembly for a file
+labs/1.7/task3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.7/task3.cpp.s
+.PHONY : labs/1.7/task3.cpp.s
+
+labs/1.7/task4.o: labs/1.7/task4.cpp.o
+.PHONY : labs/1.7/task4.o
+
+# target to build an object file
+labs/1.7/task4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.7/task4.cpp.o
+.PHONY : labs/1.7/task4.cpp.o
+
+labs/1.7/task4.i: labs/1.7/task4.cpp.i
+.PHONY : labs/1.7/task4.i
+
+# target to preprocess a source file
+labs/1.7/task4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.7/task4.cpp.i
+.PHONY : labs/1.7/task4.cpp.i
+
+labs/1.7/task4.s: labs/1.7/task4.cpp.s
+.PHONY : labs/1.7/task4.s
+
+# target to generate assembly for a file
+labs/1.7/task4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.7/task4.cpp.s
+.PHONY : labs/1.7/task4.cpp.s
+
+labs/1.7/task5.o: labs/1.7/task5.cpp.o
+.PHONY : labs/1.7/task5.o
+
+# target to build an object file
+labs/1.7/task5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.7/task5.cpp.o
+.PHONY : labs/1.7/task5.cpp.o
+
+labs/1.7/task5.i: labs/1.7/task5.cpp.i
+.PHONY : labs/1.7/task5.i
+
+# target to preprocess a source file
+labs/1.7/task5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.7/task5.cpp.i
+.PHONY : labs/1.7/task5.cpp.i
+
+labs/1.7/task5.s: labs/1.7/task5.cpp.s
+.PHONY : labs/1.7/task5.s
+
+# target to generate assembly for a file
+labs/1.7/task5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.7/task5.cpp.s
+.PHONY : labs/1.7/task5.cpp.s
+
+labs/1.8/task1.o: labs/1.8/task1.cpp.o
+.PHONY : labs/1.8/task1.o
+
+# target to build an object file
+labs/1.8/task1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.8/task1.cpp.o
+.PHONY : labs/1.8/task1.cpp.o
+
+labs/1.8/task1.i: labs/1.8/task1.cpp.i
+.PHONY : labs/1.8/task1.i
+
+# target to preprocess a source file
+labs/1.8/task1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.8/task1.cpp.i
+.PHONY : labs/1.8/task1.cpp.i
+
+labs/1.8/task1.s: labs/1.8/task1.cpp.s
+.PHONY : labs/1.8/task1.s
+
+# target to generate assembly for a file
+labs/1.8/task1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.8/task1.cpp.s
+.PHONY : labs/1.8/task1.cpp.s
+
+labs/1.8/task2.o: labs/1.8/task2.cpp.o
+.PHONY : labs/1.8/task2.o
+
+# target to build an object file
+labs/1.8/task2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.8/task2.cpp.o
+.PHONY : labs/1.8/task2.cpp.o
+
+labs/1.8/task2.i: labs/1.8/task2.cpp.i
+.PHONY : labs/1.8/task2.i
+
+# target to preprocess a source file
+labs/1.8/task2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.8/task2.cpp.i
+.PHONY : labs/1.8/task2.cpp.i
+
+labs/1.8/task2.s: labs/1.8/task2.cpp.s
+.PHONY : labs/1.8/task2.s
+
+# target to generate assembly for a file
+labs/1.8/task2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/1.8/task2.cpp.s
+.PHONY : labs/1.8/task2.cpp.s
+
+labs/2.1/task1.o: labs/2.1/task1.cpp.o
+.PHONY : labs/2.1/task1.o
+
+# target to build an object file
+labs/2.1/task1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.1/task1.cpp.o
+.PHONY : labs/2.1/task1.cpp.o
+
+labs/2.1/task1.i: labs/2.1/task1.cpp.i
+.PHONY : labs/2.1/task1.i
+
+# target to preprocess a source file
+labs/2.1/task1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.1/task1.cpp.i
+.PHONY : labs/2.1/task1.cpp.i
+
+labs/2.1/task1.s: labs/2.1/task1.cpp.s
+.PHONY : labs/2.1/task1.s
+
+# target to generate assembly for a file
+labs/2.1/task1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.1/task1.cpp.s
+.PHONY : labs/2.1/task1.cpp.s
+
+labs/2.1/task2.o: labs/2.1/task2.cpp.o
+.PHONY : labs/2.1/task2.o
+
+# target to build an object file
+labs/2.1/task2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.1/task2.cpp.o
+.PHONY : labs/2.1/task2.cpp.o
+
+labs/2.1/task2.i: labs/2.1/task2.cpp.i
+.PHONY : labs/2.1/task2.i
+
+# target to preprocess a source file
+labs/2.1/task2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.1/task2.cpp.i
+.PHONY : labs/2.1/task2.cpp.i
+
+labs/2.1/task2.s: labs/2.1/task2.cpp.s
+.PHONY : labs/2.1/task2.s
+
+# target to generate assembly for a file
+labs/2.1/task2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.1/task2.cpp.s
+.PHONY : labs/2.1/task2.cpp.s
+
+labs/2.1/task3.o: labs/2.1/task3.cpp.o
+.PHONY : labs/2.1/task3.o
+
+# target to build an object file
+labs/2.1/task3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.1/task3.cpp.o
+.PHONY : labs/2.1/task3.cpp.o
+
+labs/2.1/task3.i: labs/2.1/task3.cpp.i
+.PHONY : labs/2.1/task3.i
+
+# target to preprocess a source file
+labs/2.1/task3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.1/task3.cpp.i
+.PHONY : labs/2.1/task3.cpp.i
+
+labs/2.1/task3.s: labs/2.1/task3.cpp.s
+.PHONY : labs/2.1/task3.s
+
+# target to generate assembly for a file
+labs/2.1/task3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.1/task3.cpp.s
+.PHONY : labs/2.1/task3.cpp.s
+
+labs/2.2/task1.o: labs/2.2/task1.cpp.o
+.PHONY : labs/2.2/task1.o
+
+# target to build an object file
+labs/2.2/task1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.2/task1.cpp.o
+.PHONY : labs/2.2/task1.cpp.o
+
+labs/2.2/task1.i: labs/2.2/task1.cpp.i
+.PHONY : labs/2.2/task1.i
+
+# target to preprocess a source file
+labs/2.2/task1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.2/task1.cpp.i
+.PHONY : labs/2.2/task1.cpp.i
+
+labs/2.2/task1.s: labs/2.2/task1.cpp.s
+.PHONY : labs/2.2/task1.s
+
+# target to generate assembly for a file
+labs/2.2/task1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.2/task1.cpp.s
+.PHONY : labs/2.2/task1.cpp.s
+
+labs/2.3/task1.o: labs/2.3/task1.cpp.o
+.PHONY : labs/2.3/task1.o
+
+# target to build an object file
+labs/2.3/task1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.3/task1.cpp.o
+.PHONY : labs/2.3/task1.cpp.o
+
+labs/2.3/task1.i: labs/2.3/task1.cpp.i
+.PHONY : labs/2.3/task1.i
+
+# target to preprocess a source file
+labs/2.3/task1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.3/task1.cpp.i
+.PHONY : labs/2.3/task1.cpp.i
+
+labs/2.3/task1.s: labs/2.3/task1.cpp.s
+.PHONY : labs/2.3/task1.s
+
+# target to generate assembly for a file
+labs/2.3/task1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.3/task1.cpp.s
+.PHONY : labs/2.3/task1.cpp.s
 
 practicals/1.4/main.o: practicals/1.4/main.cpp.o
 .PHONY : practicals/1.4/main.o
@@ -297,6 +585,174 @@ practicals/1.5/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.5/main.cpp.s
 .PHONY : practicals/1.5/main.cpp.s
 
+practicals/1.6/task1.o: practicals/1.6/task1.cpp.o
+.PHONY : practicals/1.6/task1.o
+
+# target to build an object file
+practicals/1.6/task1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task1.cpp.o
+.PHONY : practicals/1.6/task1.cpp.o
+
+practicals/1.6/task1.i: practicals/1.6/task1.cpp.i
+.PHONY : practicals/1.6/task1.i
+
+# target to preprocess a source file
+practicals/1.6/task1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task1.cpp.i
+.PHONY : practicals/1.6/task1.cpp.i
+
+practicals/1.6/task1.s: practicals/1.6/task1.cpp.s
+.PHONY : practicals/1.6/task1.s
+
+# target to generate assembly for a file
+practicals/1.6/task1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task1.cpp.s
+.PHONY : practicals/1.6/task1.cpp.s
+
+practicals/1.6/task2.o: practicals/1.6/task2.cpp.o
+.PHONY : practicals/1.6/task2.o
+
+# target to build an object file
+practicals/1.6/task2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task2.cpp.o
+.PHONY : practicals/1.6/task2.cpp.o
+
+practicals/1.6/task2.i: practicals/1.6/task2.cpp.i
+.PHONY : practicals/1.6/task2.i
+
+# target to preprocess a source file
+practicals/1.6/task2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task2.cpp.i
+.PHONY : practicals/1.6/task2.cpp.i
+
+practicals/1.6/task2.s: practicals/1.6/task2.cpp.s
+.PHONY : practicals/1.6/task2.s
+
+# target to generate assembly for a file
+practicals/1.6/task2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task2.cpp.s
+.PHONY : practicals/1.6/task2.cpp.s
+
+practicals/1.6/task3.o: practicals/1.6/task3.cpp.o
+.PHONY : practicals/1.6/task3.o
+
+# target to build an object file
+practicals/1.6/task3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task3.cpp.o
+.PHONY : practicals/1.6/task3.cpp.o
+
+practicals/1.6/task3.i: practicals/1.6/task3.cpp.i
+.PHONY : practicals/1.6/task3.i
+
+# target to preprocess a source file
+practicals/1.6/task3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task3.cpp.i
+.PHONY : practicals/1.6/task3.cpp.i
+
+practicals/1.6/task3.s: practicals/1.6/task3.cpp.s
+.PHONY : practicals/1.6/task3.s
+
+# target to generate assembly for a file
+practicals/1.6/task3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task3.cpp.s
+.PHONY : practicals/1.6/task3.cpp.s
+
+practicals/1.6/task4.o: practicals/1.6/task4.cpp.o
+.PHONY : practicals/1.6/task4.o
+
+# target to build an object file
+practicals/1.6/task4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.o
+.PHONY : practicals/1.6/task4.cpp.o
+
+practicals/1.6/task4.i: practicals/1.6/task4.cpp.i
+.PHONY : practicals/1.6/task4.i
+
+# target to preprocess a source file
+practicals/1.6/task4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.i
+.PHONY : practicals/1.6/task4.cpp.i
+
+practicals/1.6/task4.s: practicals/1.6/task4.cpp.s
+.PHONY : practicals/1.6/task4.s
+
+# target to generate assembly for a file
+practicals/1.6/task4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.s
+.PHONY : practicals/1.6/task4.cpp.s
+
+practicals/1.6/task5.o: practicals/1.6/task5.cpp.o
+.PHONY : practicals/1.6/task5.o
+
+# target to build an object file
+practicals/1.6/task5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.o
+.PHONY : practicals/1.6/task5.cpp.o
+
+practicals/1.6/task5.i: practicals/1.6/task5.cpp.i
+.PHONY : practicals/1.6/task5.i
+
+# target to preprocess a source file
+practicals/1.6/task5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.i
+.PHONY : practicals/1.6/task5.cpp.i
+
+practicals/1.6/task5.s: practicals/1.6/task5.cpp.s
+.PHONY : practicals/1.6/task5.s
+
+# target to generate assembly for a file
+practicals/1.6/task5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.s
+.PHONY : practicals/1.6/task5.cpp.s
+
+practicals/1.6/task6.o: practicals/1.6/task6.cpp.o
+.PHONY : practicals/1.6/task6.o
+
+# target to build an object file
+practicals/1.6/task6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.o
+.PHONY : practicals/1.6/task6.cpp.o
+
+practicals/1.6/task6.i: practicals/1.6/task6.cpp.i
+.PHONY : practicals/1.6/task6.i
+
+# target to preprocess a source file
+practicals/1.6/task6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.i
+.PHONY : practicals/1.6/task6.cpp.i
+
+practicals/1.6/task6.s: practicals/1.6/task6.cpp.s
+.PHONY : practicals/1.6/task6.s
+
+# target to generate assembly for a file
+practicals/1.6/task6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.s
+.PHONY : practicals/1.6/task6.cpp.s
+
+practicals/1.7/task1.o: practicals/1.7/task1.cpp.o
+.PHONY : practicals/1.7/task1.o
+
+# target to build an object file
+practicals/1.7/task1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.o
+.PHONY : practicals/1.7/task1.cpp.o
+
+practicals/1.7/task1.i: practicals/1.7/task1.cpp.i
+.PHONY : practicals/1.7/task1.i
+
+# target to preprocess a source file
+practicals/1.7/task1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.i
+.PHONY : practicals/1.7/task1.cpp.i
+
+practicals/1.7/task1.s: practicals/1.7/task1.cpp.s
+.PHONY : practicals/1.7/task1.s
+
+# target to generate assembly for a file
+practicals/1.7/task1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.s
+.PHONY : practicals/1.7/task1.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -315,18 +771,75 @@ help:
 	@echo "... labs/1.5/SecondPart.o"
 	@echo "... labs/1.5/SecondPart.i"
 	@echo "... labs/1.5/SecondPart.s"
-	@echo "... labs/1.6/ceasar.o"
-	@echo "... labs/1.6/ceasar.i"
-	@echo "... labs/1.6/ceasar.s"
-	@echo "... labs/1.6/types_cast.o"
-	@echo "... labs/1.6/types_cast.i"
-	@echo "... labs/1.6/types_cast.s"
+	@echo "... labs/1.6/part1.o"
+	@echo "... labs/1.6/part1.i"
+	@echo "... labs/1.6/part1.s"
+	@echo "... labs/1.6/part2.o"
+	@echo "... labs/1.6/part2.i"
+	@echo "... labs/1.6/part2.s"
+	@echo "... labs/1.7/task1.o"
+	@echo "... labs/1.7/task1.i"
+	@echo "... labs/1.7/task1.s"
+	@echo "... labs/1.7/task2.o"
+	@echo "... labs/1.7/task2.i"
+	@echo "... labs/1.7/task2.s"
+	@echo "... labs/1.7/task3.o"
+	@echo "... labs/1.7/task3.i"
+	@echo "... labs/1.7/task3.s"
+	@echo "... labs/1.7/task4.o"
+	@echo "... labs/1.7/task4.i"
+	@echo "... labs/1.7/task4.s"
+	@echo "... labs/1.7/task5.o"
+	@echo "... labs/1.7/task5.i"
+	@echo "... labs/1.7/task5.s"
+	@echo "... labs/1.8/task1.o"
+	@echo "... labs/1.8/task1.i"
+	@echo "... labs/1.8/task1.s"
+	@echo "... labs/1.8/task2.o"
+	@echo "... labs/1.8/task2.i"
+	@echo "... labs/1.8/task2.s"
+	@echo "... labs/2.1/task1.o"
+	@echo "... labs/2.1/task1.i"
+	@echo "... labs/2.1/task1.s"
+	@echo "... labs/2.1/task2.o"
+	@echo "... labs/2.1/task2.i"
+	@echo "... labs/2.1/task2.s"
+	@echo "... labs/2.1/task3.o"
+	@echo "... labs/2.1/task3.i"
+	@echo "... labs/2.1/task3.s"
+	@echo "... labs/2.2/task1.o"
+	@echo "... labs/2.2/task1.i"
+	@echo "... labs/2.2/task1.s"
+	@echo "... labs/2.3/task1.o"
+	@echo "... labs/2.3/task1.i"
+	@echo "... labs/2.3/task1.s"
 	@echo "... practicals/1.4/main.o"
 	@echo "... practicals/1.4/main.i"
 	@echo "... practicals/1.4/main.s"
 	@echo "... practicals/1.5/main.o"
 	@echo "... practicals/1.5/main.i"
 	@echo "... practicals/1.5/main.s"
+	@echo "... practicals/1.6/task1.o"
+	@echo "... practicals/1.6/task1.i"
+	@echo "... practicals/1.6/task1.s"
+	@echo "... practicals/1.6/task2.o"
+	@echo "... practicals/1.6/task2.i"
+	@echo "... practicals/1.6/task2.s"
+	@echo "... practicals/1.6/task3.o"
+	@echo "... practicals/1.6/task3.i"
+	@echo "... practicals/1.6/task3.s"
+	@echo "... practicals/1.6/task4.o"
+	@echo "... practicals/1.6/task4.i"
+	@echo "... practicals/1.6/task4.s"
+	@echo "... practicals/1.6/task5.o"
+	@echo "... practicals/1.6/task5.i"
+	@echo "... practicals/1.6/task5.s"
+	@echo "... practicals/1.6/task6.o"
+	@echo "... practicals/1.6/task6.i"
+	@echo "... practicals/1.6/task6.s"
+	@echo "... practicals/1.7/task1.o"
+	@echo "... practicals/1.7/task1.i"
+	@echo "... practicals/1.7/task1.s"
 .PHONY : help
 
 
