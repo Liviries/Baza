@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/296/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /home/liviries/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/296/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /home/liviries/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -419,19 +419,47 @@ CMakeFiles/Baza.dir/labs/2.2/task1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Baza.dir/labs/2.2/task1.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liviries/CLionProjects/Baza/labs/2.2/task1.cpp -o CMakeFiles/Baza.dir/labs/2.2/task1.cpp.s
 
-CMakeFiles/Baza.dir/labs/2.3/task1.cpp.o: CMakeFiles/Baza.dir/flags.make
-CMakeFiles/Baza.dir/labs/2.3/task1.cpp.o: /home/liviries/CLionProjects/Baza/labs/2.3/task1.cpp
-CMakeFiles/Baza.dir/labs/2.3/task1.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Baza.dir/labs/2.3/task1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/2.3/task1.cpp.o -MF CMakeFiles/Baza.dir/labs/2.3/task1.cpp.o.d -o CMakeFiles/Baza.dir/labs/2.3/task1.cpp.o -c /home/liviries/CLionProjects/Baza/labs/2.3/task1.cpp
+CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o: CMakeFiles/Baza.dir/flags.make
+CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o: /home/liviries/CLionProjects/Baza/labs/2.3/part1.cpp
+CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o -MF CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o.d -o CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o -c /home/liviries/CLionProjects/Baza/labs/2.3/part1.cpp
 
-CMakeFiles/Baza.dir/labs/2.3/task1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Baza.dir/labs/2.3/task1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liviries/CLionProjects/Baza/labs/2.3/task1.cpp > CMakeFiles/Baza.dir/labs/2.3/task1.cpp.i
+CMakeFiles/Baza.dir/labs/2.3/part1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Baza.dir/labs/2.3/part1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liviries/CLionProjects/Baza/labs/2.3/part1.cpp > CMakeFiles/Baza.dir/labs/2.3/part1.cpp.i
 
-CMakeFiles/Baza.dir/labs/2.3/task1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Baza.dir/labs/2.3/task1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liviries/CLionProjects/Baza/labs/2.3/task1.cpp -o CMakeFiles/Baza.dir/labs/2.3/task1.cpp.s
+CMakeFiles/Baza.dir/labs/2.3/part1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Baza.dir/labs/2.3/part1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liviries/CLionProjects/Baza/labs/2.3/part1.cpp -o CMakeFiles/Baza.dir/labs/2.3/part1.cpp.s
+
+CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o: CMakeFiles/Baza.dir/flags.make
+CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o: /home/liviries/CLionProjects/Baza/labs/2.3/part2.cpp
+CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o -MF CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o.d -o CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o -c /home/liviries/CLionProjects/Baza/labs/2.3/part2.cpp
+
+CMakeFiles/Baza.dir/labs/2.3/part2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Baza.dir/labs/2.3/part2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liviries/CLionProjects/Baza/labs/2.3/part2.cpp > CMakeFiles/Baza.dir/labs/2.3/part2.cpp.i
+
+CMakeFiles/Baza.dir/labs/2.3/part2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Baza.dir/labs/2.3/part2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liviries/CLionProjects/Baza/labs/2.3/part2.cpp -o CMakeFiles/Baza.dir/labs/2.3/part2.cpp.s
+
+CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o: CMakeFiles/Baza.dir/flags.make
+CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o: /home/liviries/CLionProjects/Baza/labs/2.4/task1.cpp
+CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o -MF CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o.d -o CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o -c /home/liviries/CLionProjects/Baza/labs/2.4/task1.cpp
+
+CMakeFiles/Baza.dir/labs/2.4/task1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Baza.dir/labs/2.4/task1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liviries/CLionProjects/Baza/labs/2.4/task1.cpp > CMakeFiles/Baza.dir/labs/2.4/task1.cpp.i
+
+CMakeFiles/Baza.dir/labs/2.4/task1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Baza.dir/labs/2.4/task1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liviries/CLionProjects/Baza/labs/2.4/task1.cpp -o CMakeFiles/Baza.dir/labs/2.4/task1.cpp.s
 
 # Object files for target Baza
 Baza_OBJECTS = \
@@ -460,7 +488,9 @@ Baza_OBJECTS = \
 "CMakeFiles/Baza.dir/labs/2.1/task2.cpp.o" \
 "CMakeFiles/Baza.dir/labs/2.1/task3.cpp.o" \
 "CMakeFiles/Baza.dir/labs/2.2/task1.cpp.o" \
-"CMakeFiles/Baza.dir/labs/2.3/task1.cpp.o"
+"CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o" \
+"CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o" \
+"CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o"
 
 # External object files for target Baza
 Baza_EXTERNAL_OBJECTS =
@@ -490,10 +520,12 @@ Baza: CMakeFiles/Baza.dir/labs/2.1/task1.cpp.o
 Baza: CMakeFiles/Baza.dir/labs/2.1/task2.cpp.o
 Baza: CMakeFiles/Baza.dir/labs/2.1/task3.cpp.o
 Baza: CMakeFiles/Baza.dir/labs/2.2/task1.cpp.o
-Baza: CMakeFiles/Baza.dir/labs/2.3/task1.cpp.o
+Baza: CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o
+Baza: CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o
+Baza: CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o
 Baza: CMakeFiles/Baza.dir/build.make
 Baza: CMakeFiles/Baza.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable Baza"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable Baza"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Baza.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

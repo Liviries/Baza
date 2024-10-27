@@ -1,4 +1,4 @@
-/snap/clion/296/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/liviries/CLionProjects/Baza -B /home/liviries/CLionProjects/Baza/cmake-build-debug
+/home/liviries/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/liviries/CLionProjects/Baza -B /home/liviries/CLionProjects/Baza/cmake-build-debug
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/liviries/CLionProjects/Baza/cmake-build-debug

@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/296/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /home/liviries/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/296/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /home/liviries/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/liviries/CLionProjects/Baza/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	/snap/clion/296/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/liviries/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/snap/clion/296/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/liviries/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -513,29 +513,77 @@ labs/2.2/task1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.2/task1.cpp.s
 .PHONY : labs/2.2/task1.cpp.s
 
-labs/2.3/task1.o: labs/2.3/task1.cpp.o
-.PHONY : labs/2.3/task1.o
+labs/2.3/part1.o: labs/2.3/part1.cpp.o
+.PHONY : labs/2.3/part1.o
 
 # target to build an object file
-labs/2.3/task1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.3/task1.cpp.o
-.PHONY : labs/2.3/task1.cpp.o
+labs/2.3/part1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o
+.PHONY : labs/2.3/part1.cpp.o
 
-labs/2.3/task1.i: labs/2.3/task1.cpp.i
-.PHONY : labs/2.3/task1.i
+labs/2.3/part1.i: labs/2.3/part1.cpp.i
+.PHONY : labs/2.3/part1.i
 
 # target to preprocess a source file
-labs/2.3/task1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.3/task1.cpp.i
-.PHONY : labs/2.3/task1.cpp.i
+labs/2.3/part1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.3/part1.cpp.i
+.PHONY : labs/2.3/part1.cpp.i
 
-labs/2.3/task1.s: labs/2.3/task1.cpp.s
-.PHONY : labs/2.3/task1.s
+labs/2.3/part1.s: labs/2.3/part1.cpp.s
+.PHONY : labs/2.3/part1.s
 
 # target to generate assembly for a file
-labs/2.3/task1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.3/task1.cpp.s
-.PHONY : labs/2.3/task1.cpp.s
+labs/2.3/part1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.3/part1.cpp.s
+.PHONY : labs/2.3/part1.cpp.s
+
+labs/2.3/part2.o: labs/2.3/part2.cpp.o
+.PHONY : labs/2.3/part2.o
+
+# target to build an object file
+labs/2.3/part2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o
+.PHONY : labs/2.3/part2.cpp.o
+
+labs/2.3/part2.i: labs/2.3/part2.cpp.i
+.PHONY : labs/2.3/part2.i
+
+# target to preprocess a source file
+labs/2.3/part2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.3/part2.cpp.i
+.PHONY : labs/2.3/part2.cpp.i
+
+labs/2.3/part2.s: labs/2.3/part2.cpp.s
+.PHONY : labs/2.3/part2.s
+
+# target to generate assembly for a file
+labs/2.3/part2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.3/part2.cpp.s
+.PHONY : labs/2.3/part2.cpp.s
+
+labs/2.4/task1.o: labs/2.4/task1.cpp.o
+.PHONY : labs/2.4/task1.o
+
+# target to build an object file
+labs/2.4/task1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o
+.PHONY : labs/2.4/task1.cpp.o
+
+labs/2.4/task1.i: labs/2.4/task1.cpp.i
+.PHONY : labs/2.4/task1.i
+
+# target to preprocess a source file
+labs/2.4/task1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.4/task1.cpp.i
+.PHONY : labs/2.4/task1.cpp.i
+
+labs/2.4/task1.s: labs/2.4/task1.cpp.s
+.PHONY : labs/2.4/task1.s
+
+# target to generate assembly for a file
+labs/2.4/task1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.4/task1.cpp.s
+.PHONY : labs/2.4/task1.cpp.s
 
 practicals/1.4/main.o: practicals/1.4/main.cpp.o
 .PHONY : practicals/1.4/main.o
@@ -810,9 +858,15 @@ help:
 	@echo "... labs/2.2/task1.o"
 	@echo "... labs/2.2/task1.i"
 	@echo "... labs/2.2/task1.s"
-	@echo "... labs/2.3/task1.o"
-	@echo "... labs/2.3/task1.i"
-	@echo "... labs/2.3/task1.s"
+	@echo "... labs/2.3/part1.o"
+	@echo "... labs/2.3/part1.i"
+	@echo "... labs/2.3/part1.s"
+	@echo "... labs/2.3/part2.o"
+	@echo "... labs/2.3/part2.i"
+	@echo "... labs/2.3/part2.s"
+	@echo "... labs/2.4/task1.o"
+	@echo "... labs/2.4/task1.i"
+	@echo "... labs/2.4/task1.s"
 	@echo "... practicals/1.4/main.o"
 	@echo "... practicals/1.4/main.i"
 	@echo "... practicals/1.4/main.s"
