@@ -32,4 +32,6 @@ add_executable(Baza
         labs/2.2/task1.cpp
         labs/2.3/part1.cpp
         labs/2.3/part2.cpp
-        labs/2.4/task1.cpp)
+        labs/2.4/task1.cpp
+        labs/2.5/list.h
+        labs/2.5/task.cpp)

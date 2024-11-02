@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/liviries/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /opt/clion/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /home/liviries/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /opt/clion/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liviries/CLionProjects/Baza
+CMAKE_SOURCE_DIR = /home/Liviries/CLionProjects/Baza
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liviries/CLionProjects/Baza/cmake-build-debug
+CMAKE_BINARY_DIR = /home/Liviries/CLionProjects/Baza/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/liviries/CLionProjects/Baza/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	/home/liviries/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/opt/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/home/liviries/CLion-2024.2.2/clion-2024.2.2/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles /home/liviries/CLionProjects/Baza/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles /home/Liviries/CLionProjects/Baza/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -585,6 +585,30 @@ labs/2.4/task1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.4/task1.cpp.s
 .PHONY : labs/2.4/task1.cpp.s
 
+labs/2.5/task.o: labs/2.5/task.cpp.o
+.PHONY : labs/2.5/task.o
+
+# target to build an object file
+labs/2.5/task.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.5/task.cpp.o
+.PHONY : labs/2.5/task.cpp.o
+
+labs/2.5/task.i: labs/2.5/task.cpp.i
+.PHONY : labs/2.5/task.i
+
+# target to preprocess a source file
+labs/2.5/task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.5/task.cpp.i
+.PHONY : labs/2.5/task.cpp.i
+
+labs/2.5/task.s: labs/2.5/task.cpp.s
+.PHONY : labs/2.5/task.s
+
+# target to generate assembly for a file
+labs/2.5/task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/labs/2.5/task.cpp.s
+.PHONY : labs/2.5/task.cpp.s
+
 practicals/1.4/main.o: practicals/1.4/main.cpp.o
 .PHONY : practicals/1.4/main.o
 
@@ -867,6 +891,9 @@ help:
 	@echo "... labs/2.4/task1.o"
 	@echo "... labs/2.4/task1.i"
 	@echo "... labs/2.4/task1.s"
+	@echo "... labs/2.5/task.o"
+	@echo "... labs/2.5/task.i"
+	@echo "... labs/2.5/task.s"
 	@echo "... practicals/1.4/main.o"
 	@echo "... practicals/1.4/main.i"
 	@echo "... practicals/1.4/main.s"

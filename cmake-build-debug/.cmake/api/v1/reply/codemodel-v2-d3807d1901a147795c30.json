@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Baza::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Baza-Debug-58a1e45a9bea4272fde8.json",
+					"jsonFile" : "target-Baza-Debug-cba850d7e74b54110bba.json",
 					"name" : "Baza",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/liviries/CLionProjects/Baza/cmake-build-debug",
-		"source" : "/home/liviries/CLionProjects/Baza"
+		"build" : "/home/Liviries/CLionProjects/Baza/cmake-build-debug",
+		"source" : "/home/Liviries/CLionProjects/Baza"
 	},
 	"version" : 
 	{

@@ -39,6 +39,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o.d"
   "CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o"
   "CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o.d"
+  "CMakeFiles/Baza.dir/labs/2.5/task.cpp.o"
+  "CMakeFiles/Baza.dir/labs/2.5/task.cpp.o.d"
   "CMakeFiles/Baza.dir/practicals/1.4/main.cpp.o"
   "CMakeFiles/Baza.dir/practicals/1.4/main.cpp.o.d"
   "CMakeFiles/Baza.dir/practicals/1.5/main.cpp.o"
