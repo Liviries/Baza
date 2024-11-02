@@ -801,29 +801,53 @@ practicals/1.6/task6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.s
 .PHONY : practicals/1.6/task6.cpp.s
 
-practicals/1.7/task1.o: practicals/1.7/task1.cpp.o
-.PHONY : practicals/1.7/task1.o
+practicals/2.1/task.o: practicals/2.1/task.cpp.o
+.PHONY : practicals/2.1/task.o
 
 # target to build an object file
-practicals/1.7/task1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.o
-.PHONY : practicals/1.7/task1.cpp.o
+practicals/2.1/task.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/2.1/task.cpp.o
+.PHONY : practicals/2.1/task.cpp.o
 
-practicals/1.7/task1.i: practicals/1.7/task1.cpp.i
-.PHONY : practicals/1.7/task1.i
+practicals/2.1/task.i: practicals/2.1/task.cpp.i
+.PHONY : practicals/2.1/task.i
 
 # target to preprocess a source file
-practicals/1.7/task1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.i
-.PHONY : practicals/1.7/task1.cpp.i
+practicals/2.1/task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/2.1/task.cpp.i
+.PHONY : practicals/2.1/task.cpp.i
 
-practicals/1.7/task1.s: practicals/1.7/task1.cpp.s
-.PHONY : practicals/1.7/task1.s
+practicals/2.1/task.s: practicals/2.1/task.cpp.s
+.PHONY : practicals/2.1/task.s
 
 # target to generate assembly for a file
-practicals/1.7/task1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.s
-.PHONY : practicals/1.7/task1.cpp.s
+practicals/2.1/task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/2.1/task.cpp.s
+.PHONY : practicals/2.1/task.cpp.s
+
+practicals/2.2/task.o: practicals/2.2/task.cpp.o
+.PHONY : practicals/2.2/task.o
+
+# target to build an object file
+practicals/2.2/task.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/2.2/task.cpp.o
+.PHONY : practicals/2.2/task.cpp.o
+
+practicals/2.2/task.i: practicals/2.2/task.cpp.i
+.PHONY : practicals/2.2/task.i
+
+# target to preprocess a source file
+practicals/2.2/task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/2.2/task.cpp.i
+.PHONY : practicals/2.2/task.cpp.i
+
+practicals/2.2/task.s: practicals/2.2/task.cpp.s
+.PHONY : practicals/2.2/task.s
+
+# target to generate assembly for a file
+practicals/2.2/task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Baza.dir/build.make CMakeFiles/Baza.dir/practicals/2.2/task.cpp.s
+.PHONY : practicals/2.2/task.cpp.s
 
 # Help Target
 help:
@@ -918,9 +942,12 @@ help:
 	@echo "... practicals/1.6/task6.o"
 	@echo "... practicals/1.6/task6.i"
 	@echo "... practicals/1.6/task6.s"
-	@echo "... practicals/1.7/task1.o"
-	@echo "... practicals/1.7/task1.i"
-	@echo "... practicals/1.7/task1.s"
+	@echo "... practicals/2.1/task.o"
+	@echo "... practicals/2.1/task.i"
+	@echo "... practicals/2.1/task.s"
+	@echo "... practicals/2.2/task.o"
+	@echo "... practicals/2.2/task.i"
+	@echo "... practicals/2.2/task.s"
 .PHONY : help
 
 

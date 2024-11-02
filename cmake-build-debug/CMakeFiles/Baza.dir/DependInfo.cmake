@@ -36,7 +36,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/Liviries/CLionProjects/Baza/practicals/1.6/task4.cpp" "CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.o" "gcc" "CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.o.d"
   "/home/Liviries/CLionProjects/Baza/practicals/1.6/task5.cpp" "CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.o" "gcc" "CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.o.d"
   "/home/Liviries/CLionProjects/Baza/practicals/1.6/task6.cpp" "CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.o" "gcc" "CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.o.d"
-  "/home/Liviries/CLionProjects/Baza/practicals/1.7/task1.cpp" "CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.o" "gcc" "CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.o.d"
+  "/home/Liviries/CLionProjects/Baza/practicals/2.1/task.cpp" "CMakeFiles/Baza.dir/practicals/2.1/task.cpp.o" "gcc" "CMakeFiles/Baza.dir/practicals/2.1/task.cpp.o.d"
+  "/home/Liviries/CLionProjects/Baza/practicals/2.2/task.cpp" "CMakeFiles/Baza.dir/practicals/2.2/task.cpp.o" "gcc" "CMakeFiles/Baza.dir/practicals/2.2/task.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

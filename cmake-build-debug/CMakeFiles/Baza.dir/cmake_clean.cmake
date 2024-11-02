@@ -57,8 +57,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.o.d"
   "CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.o"
   "CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.o.d"
-  "CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.o"
-  "CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.o.d"
+  "CMakeFiles/Baza.dir/practicals/2.1/task.cpp.o"
+  "CMakeFiles/Baza.dir/practicals/2.1/task.cpp.o.d"
+  "CMakeFiles/Baza.dir/practicals/2.2/task.cpp.o"
+  "CMakeFiles/Baza.dir/practicals/2.2/task.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

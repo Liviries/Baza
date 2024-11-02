@@ -153,24 +153,10 @@ CMakeFiles/Baza.dir/practicals/1.6/task1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Baza.dir/practicals/1.6/task1.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Liviries/CLionProjects/Baza/practicals/1.6/task1.cpp -o CMakeFiles/Baza.dir/practicals/1.6/task1.cpp.s
 
-CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.o: CMakeFiles/Baza.dir/flags.make
-CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.o: /home/Liviries/CLionProjects/Baza/practicals/1.7/task1.cpp
-CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.o -MF CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.o.d -o CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.o -c /home/Liviries/CLionProjects/Baza/practicals/1.7/task1.cpp
-
-CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Liviries/CLionProjects/Baza/practicals/1.7/task1.cpp > CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.i
-
-CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Liviries/CLionProjects/Baza/practicals/1.7/task1.cpp -o CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.s
-
 CMakeFiles/Baza.dir/practicals/1.6/task2.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/practicals/1.6/task2.cpp.o: /home/Liviries/CLionProjects/Baza/practicals/1.6/task2.cpp
 CMakeFiles/Baza.dir/practicals/1.6/task2.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Baza.dir/practicals/1.6/task2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Baza.dir/practicals/1.6/task2.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/practicals/1.6/task2.cpp.o -MF CMakeFiles/Baza.dir/practicals/1.6/task2.cpp.o.d -o CMakeFiles/Baza.dir/practicals/1.6/task2.cpp.o -c /home/Liviries/CLionProjects/Baza/practicals/1.6/task2.cpp
 
 CMakeFiles/Baza.dir/practicals/1.6/task2.cpp.i: cmake_force
@@ -184,7 +170,7 @@ CMakeFiles/Baza.dir/practicals/1.6/task2.cpp.s: cmake_force
 CMakeFiles/Baza.dir/practicals/1.6/task3.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/practicals/1.6/task3.cpp.o: /home/Liviries/CLionProjects/Baza/practicals/1.6/task3.cpp
 CMakeFiles/Baza.dir/practicals/1.6/task3.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Baza.dir/practicals/1.6/task3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Baza.dir/practicals/1.6/task3.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/practicals/1.6/task3.cpp.o -MF CMakeFiles/Baza.dir/practicals/1.6/task3.cpp.o.d -o CMakeFiles/Baza.dir/practicals/1.6/task3.cpp.o -c /home/Liviries/CLionProjects/Baza/practicals/1.6/task3.cpp
 
 CMakeFiles/Baza.dir/practicals/1.6/task3.cpp.i: cmake_force
@@ -198,7 +184,7 @@ CMakeFiles/Baza.dir/practicals/1.6/task3.cpp.s: cmake_force
 CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.o: /home/Liviries/CLionProjects/Baza/practicals/1.6/task4.cpp
 CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.o -MF CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.o.d -o CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.o -c /home/Liviries/CLionProjects/Baza/practicals/1.6/task4.cpp
 
 CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.i: cmake_force
@@ -212,7 +198,7 @@ CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.s: cmake_force
 CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.o: /home/Liviries/CLionProjects/Baza/practicals/1.6/task5.cpp
 CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.o -MF CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.o.d -o CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.o -c /home/Liviries/CLionProjects/Baza/practicals/1.6/task5.cpp
 
 CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.i: cmake_force
@@ -226,7 +212,7 @@ CMakeFiles/Baza.dir/practicals/1.6/task5.cpp.s: cmake_force
 CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.o: /home/Liviries/CLionProjects/Baza/practicals/1.6/task6.cpp
 CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.o -MF CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.o.d -o CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.o -c /home/Liviries/CLionProjects/Baza/practicals/1.6/task6.cpp
 
 CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.i: cmake_force
@@ -240,7 +226,7 @@ CMakeFiles/Baza.dir/practicals/1.6/task6.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/1.6/part1.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/1.6/part1.cpp.o: /home/Liviries/CLionProjects/Baza/labs/1.6/part1.cpp
 CMakeFiles/Baza.dir/labs/1.6/part1.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Baza.dir/labs/1.6/part1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Baza.dir/labs/1.6/part1.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/1.6/part1.cpp.o -MF CMakeFiles/Baza.dir/labs/1.6/part1.cpp.o.d -o CMakeFiles/Baza.dir/labs/1.6/part1.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/1.6/part1.cpp
 
 CMakeFiles/Baza.dir/labs/1.6/part1.cpp.i: cmake_force
@@ -254,7 +240,7 @@ CMakeFiles/Baza.dir/labs/1.6/part1.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/1.6/part2.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/1.6/part2.cpp.o: /home/Liviries/CLionProjects/Baza/labs/1.6/part2.cpp
 CMakeFiles/Baza.dir/labs/1.6/part2.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Baza.dir/labs/1.6/part2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Baza.dir/labs/1.6/part2.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/1.6/part2.cpp.o -MF CMakeFiles/Baza.dir/labs/1.6/part2.cpp.o.d -o CMakeFiles/Baza.dir/labs/1.6/part2.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/1.6/part2.cpp
 
 CMakeFiles/Baza.dir/labs/1.6/part2.cpp.i: cmake_force
@@ -268,7 +254,7 @@ CMakeFiles/Baza.dir/labs/1.6/part2.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/1.7/task1.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/1.7/task1.cpp.o: /home/Liviries/CLionProjects/Baza/labs/1.7/task1.cpp
 CMakeFiles/Baza.dir/labs/1.7/task1.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Baza.dir/labs/1.7/task1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Baza.dir/labs/1.7/task1.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/1.7/task1.cpp.o -MF CMakeFiles/Baza.dir/labs/1.7/task1.cpp.o.d -o CMakeFiles/Baza.dir/labs/1.7/task1.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/1.7/task1.cpp
 
 CMakeFiles/Baza.dir/labs/1.7/task1.cpp.i: cmake_force
@@ -282,7 +268,7 @@ CMakeFiles/Baza.dir/labs/1.7/task1.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/1.7/task2.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/1.7/task2.cpp.o: /home/Liviries/CLionProjects/Baza/labs/1.7/task2.cpp
 CMakeFiles/Baza.dir/labs/1.7/task2.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Baza.dir/labs/1.7/task2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Baza.dir/labs/1.7/task2.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/1.7/task2.cpp.o -MF CMakeFiles/Baza.dir/labs/1.7/task2.cpp.o.d -o CMakeFiles/Baza.dir/labs/1.7/task2.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/1.7/task2.cpp
 
 CMakeFiles/Baza.dir/labs/1.7/task2.cpp.i: cmake_force
@@ -296,7 +282,7 @@ CMakeFiles/Baza.dir/labs/1.7/task2.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/1.7/task3.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/1.7/task3.cpp.o: /home/Liviries/CLionProjects/Baza/labs/1.7/task3.cpp
 CMakeFiles/Baza.dir/labs/1.7/task3.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Baza.dir/labs/1.7/task3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Baza.dir/labs/1.7/task3.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/1.7/task3.cpp.o -MF CMakeFiles/Baza.dir/labs/1.7/task3.cpp.o.d -o CMakeFiles/Baza.dir/labs/1.7/task3.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/1.7/task3.cpp
 
 CMakeFiles/Baza.dir/labs/1.7/task3.cpp.i: cmake_force
@@ -310,7 +296,7 @@ CMakeFiles/Baza.dir/labs/1.7/task3.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/1.7/task4.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/1.7/task4.cpp.o: /home/Liviries/CLionProjects/Baza/labs/1.7/task4.cpp
 CMakeFiles/Baza.dir/labs/1.7/task4.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Baza.dir/labs/1.7/task4.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Baza.dir/labs/1.7/task4.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/1.7/task4.cpp.o -MF CMakeFiles/Baza.dir/labs/1.7/task4.cpp.o.d -o CMakeFiles/Baza.dir/labs/1.7/task4.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/1.7/task4.cpp
 
 CMakeFiles/Baza.dir/labs/1.7/task4.cpp.i: cmake_force
@@ -324,7 +310,7 @@ CMakeFiles/Baza.dir/labs/1.7/task4.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/1.7/task5.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/1.7/task5.cpp.o: /home/Liviries/CLionProjects/Baza/labs/1.7/task5.cpp
 CMakeFiles/Baza.dir/labs/1.7/task5.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Baza.dir/labs/1.7/task5.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Baza.dir/labs/1.7/task5.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/1.7/task5.cpp.o -MF CMakeFiles/Baza.dir/labs/1.7/task5.cpp.o.d -o CMakeFiles/Baza.dir/labs/1.7/task5.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/1.7/task5.cpp
 
 CMakeFiles/Baza.dir/labs/1.7/task5.cpp.i: cmake_force
@@ -338,7 +324,7 @@ CMakeFiles/Baza.dir/labs/1.7/task5.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/1.8/task1.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/1.8/task1.cpp.o: /home/Liviries/CLionProjects/Baza/labs/1.8/task1.cpp
 CMakeFiles/Baza.dir/labs/1.8/task1.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Baza.dir/labs/1.8/task1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Baza.dir/labs/1.8/task1.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/1.8/task1.cpp.o -MF CMakeFiles/Baza.dir/labs/1.8/task1.cpp.o.d -o CMakeFiles/Baza.dir/labs/1.8/task1.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/1.8/task1.cpp
 
 CMakeFiles/Baza.dir/labs/1.8/task1.cpp.i: cmake_force
@@ -352,7 +338,7 @@ CMakeFiles/Baza.dir/labs/1.8/task1.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/1.8/task2.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/1.8/task2.cpp.o: /home/Liviries/CLionProjects/Baza/labs/1.8/task2.cpp
 CMakeFiles/Baza.dir/labs/1.8/task2.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Baza.dir/labs/1.8/task2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Baza.dir/labs/1.8/task2.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/1.8/task2.cpp.o -MF CMakeFiles/Baza.dir/labs/1.8/task2.cpp.o.d -o CMakeFiles/Baza.dir/labs/1.8/task2.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/1.8/task2.cpp
 
 CMakeFiles/Baza.dir/labs/1.8/task2.cpp.i: cmake_force
@@ -366,7 +352,7 @@ CMakeFiles/Baza.dir/labs/1.8/task2.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/2.1/task1.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/2.1/task1.cpp.o: /home/Liviries/CLionProjects/Baza/labs/2.1/task1.cpp
 CMakeFiles/Baza.dir/labs/2.1/task1.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Baza.dir/labs/2.1/task1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Baza.dir/labs/2.1/task1.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/2.1/task1.cpp.o -MF CMakeFiles/Baza.dir/labs/2.1/task1.cpp.o.d -o CMakeFiles/Baza.dir/labs/2.1/task1.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/2.1/task1.cpp
 
 CMakeFiles/Baza.dir/labs/2.1/task1.cpp.i: cmake_force
@@ -380,7 +366,7 @@ CMakeFiles/Baza.dir/labs/2.1/task1.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/2.1/task2.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/2.1/task2.cpp.o: /home/Liviries/CLionProjects/Baza/labs/2.1/task2.cpp
 CMakeFiles/Baza.dir/labs/2.1/task2.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Baza.dir/labs/2.1/task2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Baza.dir/labs/2.1/task2.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/2.1/task2.cpp.o -MF CMakeFiles/Baza.dir/labs/2.1/task2.cpp.o.d -o CMakeFiles/Baza.dir/labs/2.1/task2.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/2.1/task2.cpp
 
 CMakeFiles/Baza.dir/labs/2.1/task2.cpp.i: cmake_force
@@ -394,7 +380,7 @@ CMakeFiles/Baza.dir/labs/2.1/task2.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/2.1/task3.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/2.1/task3.cpp.o: /home/Liviries/CLionProjects/Baza/labs/2.1/task3.cpp
 CMakeFiles/Baza.dir/labs/2.1/task3.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Baza.dir/labs/2.1/task3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Baza.dir/labs/2.1/task3.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/2.1/task3.cpp.o -MF CMakeFiles/Baza.dir/labs/2.1/task3.cpp.o.d -o CMakeFiles/Baza.dir/labs/2.1/task3.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/2.1/task3.cpp
 
 CMakeFiles/Baza.dir/labs/2.1/task3.cpp.i: cmake_force
@@ -408,7 +394,7 @@ CMakeFiles/Baza.dir/labs/2.1/task3.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/2.2/task1.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/2.2/task1.cpp.o: /home/Liviries/CLionProjects/Baza/labs/2.2/task1.cpp
 CMakeFiles/Baza.dir/labs/2.2/task1.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Baza.dir/labs/2.2/task1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Baza.dir/labs/2.2/task1.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/2.2/task1.cpp.o -MF CMakeFiles/Baza.dir/labs/2.2/task1.cpp.o.d -o CMakeFiles/Baza.dir/labs/2.2/task1.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/2.2/task1.cpp
 
 CMakeFiles/Baza.dir/labs/2.2/task1.cpp.i: cmake_force
@@ -422,7 +408,7 @@ CMakeFiles/Baza.dir/labs/2.2/task1.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o: /home/Liviries/CLionProjects/Baza/labs/2.3/part1.cpp
 CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o -MF CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o.d -o CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/2.3/part1.cpp
 
 CMakeFiles/Baza.dir/labs/2.3/part1.cpp.i: cmake_force
@@ -436,7 +422,7 @@ CMakeFiles/Baza.dir/labs/2.3/part1.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o: /home/Liviries/CLionProjects/Baza/labs/2.3/part2.cpp
 CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o -MF CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o.d -o CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/2.3/part2.cpp
 
 CMakeFiles/Baza.dir/labs/2.3/part2.cpp.i: cmake_force
@@ -450,7 +436,7 @@ CMakeFiles/Baza.dir/labs/2.3/part2.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o: /home/Liviries/CLionProjects/Baza/labs/2.4/task1.cpp
 CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o -MF CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o.d -o CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/2.4/task1.cpp
 
 CMakeFiles/Baza.dir/labs/2.4/task1.cpp.i: cmake_force
@@ -464,7 +450,7 @@ CMakeFiles/Baza.dir/labs/2.4/task1.cpp.s: cmake_force
 CMakeFiles/Baza.dir/labs/2.5/task.cpp.o: CMakeFiles/Baza.dir/flags.make
 CMakeFiles/Baza.dir/labs/2.5/task.cpp.o: /home/Liviries/CLionProjects/Baza/labs/2.5/task.cpp
 CMakeFiles/Baza.dir/labs/2.5/task.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Baza.dir/labs/2.5/task.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Baza.dir/labs/2.5/task.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/labs/2.5/task.cpp.o -MF CMakeFiles/Baza.dir/labs/2.5/task.cpp.o.d -o CMakeFiles/Baza.dir/labs/2.5/task.cpp.o -c /home/Liviries/CLionProjects/Baza/labs/2.5/task.cpp
 
 CMakeFiles/Baza.dir/labs/2.5/task.cpp.i: cmake_force
@@ -475,6 +461,34 @@ CMakeFiles/Baza.dir/labs/2.5/task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Baza.dir/labs/2.5/task.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Liviries/CLionProjects/Baza/labs/2.5/task.cpp -o CMakeFiles/Baza.dir/labs/2.5/task.cpp.s
 
+CMakeFiles/Baza.dir/practicals/2.2/task.cpp.o: CMakeFiles/Baza.dir/flags.make
+CMakeFiles/Baza.dir/practicals/2.2/task.cpp.o: /home/Liviries/CLionProjects/Baza/practicals/2.2/task.cpp
+CMakeFiles/Baza.dir/practicals/2.2/task.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Baza.dir/practicals/2.2/task.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/practicals/2.2/task.cpp.o -MF CMakeFiles/Baza.dir/practicals/2.2/task.cpp.o.d -o CMakeFiles/Baza.dir/practicals/2.2/task.cpp.o -c /home/Liviries/CLionProjects/Baza/practicals/2.2/task.cpp
+
+CMakeFiles/Baza.dir/practicals/2.2/task.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Baza.dir/practicals/2.2/task.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Liviries/CLionProjects/Baza/practicals/2.2/task.cpp > CMakeFiles/Baza.dir/practicals/2.2/task.cpp.i
+
+CMakeFiles/Baza.dir/practicals/2.2/task.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Baza.dir/practicals/2.2/task.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Liviries/CLionProjects/Baza/practicals/2.2/task.cpp -o CMakeFiles/Baza.dir/practicals/2.2/task.cpp.s
+
+CMakeFiles/Baza.dir/practicals/2.1/task.cpp.o: CMakeFiles/Baza.dir/flags.make
+CMakeFiles/Baza.dir/practicals/2.1/task.cpp.o: /home/Liviries/CLionProjects/Baza/practicals/2.1/task.cpp
+CMakeFiles/Baza.dir/practicals/2.1/task.cpp.o: CMakeFiles/Baza.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Baza.dir/practicals/2.1/task.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Baza.dir/practicals/2.1/task.cpp.o -MF CMakeFiles/Baza.dir/practicals/2.1/task.cpp.o.d -o CMakeFiles/Baza.dir/practicals/2.1/task.cpp.o -c /home/Liviries/CLionProjects/Baza/practicals/2.1/task.cpp
+
+CMakeFiles/Baza.dir/practicals/2.1/task.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Baza.dir/practicals/2.1/task.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Liviries/CLionProjects/Baza/practicals/2.1/task.cpp > CMakeFiles/Baza.dir/practicals/2.1/task.cpp.i
+
+CMakeFiles/Baza.dir/practicals/2.1/task.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Baza.dir/practicals/2.1/task.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Liviries/CLionProjects/Baza/practicals/2.1/task.cpp -o CMakeFiles/Baza.dir/practicals/2.1/task.cpp.s
+
 # Object files for target Baza
 Baza_OBJECTS = \
 "CMakeFiles/Baza.dir/labs/1.4/main.cpp.o" \
@@ -483,7 +497,6 @@ Baza_OBJECTS = \
 "CMakeFiles/Baza.dir/practicals/1.5/main.cpp.o" \
 "CMakeFiles/Baza.dir/labs/1.5/SecondPart.cpp.o" \
 "CMakeFiles/Baza.dir/practicals/1.6/task1.cpp.o" \
-"CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.o" \
 "CMakeFiles/Baza.dir/practicals/1.6/task2.cpp.o" \
 "CMakeFiles/Baza.dir/practicals/1.6/task3.cpp.o" \
 "CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.o" \
@@ -505,7 +518,9 @@ Baza_OBJECTS = \
 "CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o" \
 "CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o" \
 "CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o" \
-"CMakeFiles/Baza.dir/labs/2.5/task.cpp.o"
+"CMakeFiles/Baza.dir/labs/2.5/task.cpp.o" \
+"CMakeFiles/Baza.dir/practicals/2.2/task.cpp.o" \
+"CMakeFiles/Baza.dir/practicals/2.1/task.cpp.o"
 
 # External object files for target Baza
 Baza_EXTERNAL_OBJECTS =
@@ -516,7 +531,6 @@ Baza: CMakeFiles/Baza.dir/practicals/1.4/main.cpp.o
 Baza: CMakeFiles/Baza.dir/practicals/1.5/main.cpp.o
 Baza: CMakeFiles/Baza.dir/labs/1.5/SecondPart.cpp.o
 Baza: CMakeFiles/Baza.dir/practicals/1.6/task1.cpp.o
-Baza: CMakeFiles/Baza.dir/practicals/1.7/task1.cpp.o
 Baza: CMakeFiles/Baza.dir/practicals/1.6/task2.cpp.o
 Baza: CMakeFiles/Baza.dir/practicals/1.6/task3.cpp.o
 Baza: CMakeFiles/Baza.dir/practicals/1.6/task4.cpp.o
@@ -539,9 +553,11 @@ Baza: CMakeFiles/Baza.dir/labs/2.3/part1.cpp.o
 Baza: CMakeFiles/Baza.dir/labs/2.3/part2.cpp.o
 Baza: CMakeFiles/Baza.dir/labs/2.4/task1.cpp.o
 Baza: CMakeFiles/Baza.dir/labs/2.5/task.cpp.o
+Baza: CMakeFiles/Baza.dir/practicals/2.2/task.cpp.o
+Baza: CMakeFiles/Baza.dir/practicals/2.1/task.cpp.o
 Baza: CMakeFiles/Baza.dir/build.make
 Baza: CMakeFiles/Baza.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable Baza"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Liviries/CLionProjects/Baza/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable Baza"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Baza.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

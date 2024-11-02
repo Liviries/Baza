@@ -11,7 +11,6 @@ add_executable(Baza
         labs/1.5/FirstPart.cpp
         labs/1.5/SecondPart.cpp
         practicals/1.6/task1.cpp
-        practicals/1.7/task1.cpp
         practicals/1.6/task2.cpp
         practicals/1.6/task3.cpp
         practicals/1.6/task4.cpp
@@ -34,4 +33,8 @@ add_executable(Baza
         labs/2.3/part2.cpp
         labs/2.4/task1.cpp
         labs/2.5/list.h
-        labs/2.5/task.cpp)
+        labs/2.5/task.cpp
+        practicals/2.2/task.cpp
+        practicals/2.1/task.cpp
+        practicals/2.1/task.cpp
+        practicals/2.1/task.cpp)
