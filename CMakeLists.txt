@@ -33,4 +33,4 @@ add_executable(Baza
         labs/2.3/part1.cpp
         labs/2.3/part2.cpp
         labs/2.4/task1.cpp
-        RGR/RGR.cpp)
+        RGR/RGR1.cpp)
