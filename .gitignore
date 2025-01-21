@@ -1,0 +1,17 @@
+
+.idea/
+
+cmake-build-debug/
+
+*.log
+*.swp
+*.swo
+
+*.o
+*.obj
+
+*.exe
+*.out
+
+CMakeFiles/
+CMakeCache.txt
