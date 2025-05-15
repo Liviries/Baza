@@ -1,7 +1,7 @@
 using System;
-using String_manipulator;
+using Dale;
 
-namespace Console_application {
+namespace Chip {
 
 public class Program {
     public static void Main(string[] args)

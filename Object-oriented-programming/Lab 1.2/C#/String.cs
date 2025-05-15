@@ -1,21 +1,40 @@
 using System;
-using Console_application;
+using Chip;
 
-namespace String_manipulator {
-
+namespace Dale {
 public class MainClass {
-    public void Main(string input)  
+    private string input;
+
+    public MainClass() 
     {
-        string input_Lowercase = input.ToLower();
-        int input_Length = input.Length;
+        input = string.Empty;
+    }
 
-        char[] chars = input.ToCharArray();
-        Array.Sort(chars);
-        string input_Sorted = new string(chars);
+    public MainClass(string input) 
+    {
+        this.input = input;
+        Main(input);
+    }
 
+    public MainClass(MainClass other) 
+    {
+        this.input = other.input;
+    }
+
+    ~MainClass() {
+    }
+
+    public void Main(string input)
+    {
+      string input_Lowercase = input.ToLower();
+      int input_Length = input.Length;
+
+      char[] chars = input.ToCharArray();
+      Array.Sort(chars);
+      string input_Sorted = new string(chars);
 
       Program transfer = new Program();
-        transfer.Output(input, input_Length, input_Lowercase, input_Sorted);
+      transfer.Output(input, input_Length, input_Lowercase, input_Sorted);
     }
   }
-}   
+}
