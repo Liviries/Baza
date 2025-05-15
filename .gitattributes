@@ -24,6 +24,7 @@
 CMakeLists.txt text
 *.cmake text
 .idea/* merge=union  # Merging .idea configurations
+.vscode/* merge=union  # Merging VSCode configurations
 
 ###############################################################################
 # Set the diff driver for specific text file types

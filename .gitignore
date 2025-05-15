@@ -1,6 +1,6 @@
 
 .idea/
-
+.vscode/
 cmake-build-debug/
 
 *.log
@@ -15,3 +15,5 @@ cmake-build-debug/
 
 CMakeFiles/
 CMakeCache.txt
+
+.fake
