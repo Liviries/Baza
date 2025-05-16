@@ -4,22 +4,21 @@ using String_manipulator;
 namespace Console_application {
 
 public class Program {
-    public static void Main(string[] args)
-    {
-        Program program = new Program();
-        program.Input();
+        public static void Main()
+        {
+            MainClass program = new MainClass();
+            string input = Input();
+            string result = program.Main(input);
+            Output(input, input.Length, input.ToLower(), result);
     }
 
-    public void Input()
+    public static string Input()
     {
         Console.Write("Type string: ");
-        string input = Console.ReadLine() ?? "";
-        
-        MainClass transfer = new MainClass();
-        transfer.Main(input);
+        return Console.ReadLine() ?? "";
     }
 
-    public void Output(string input, int input_Length, string input_Lowercase, string input_Sorted)
+    public static void Output(string input, int input_Length, string input_Lowercase, string input_Sorted)
     {
         Console.WriteLine("");
         Console.WriteLine("Input: " + input);

@@ -4,19 +4,20 @@ using Dale;
 namespace Chip {
 
 public class Program {
-    public static void Main(string[] args)
+    public static void Main()
     {
         Program program = new Program();
         program.Input();
     }
 
-    public void Input()
-    {
-        Console.Write("Type string: ");
-        string input = Console.ReadLine() ?? "";
-        
-        MainClass transfer = new MainClass();
-        transfer.Main(input);
+        public void Input()
+        {
+            Console.Write("Type string: ");
+            string input = Console.ReadLine() ?? "";
+
+            MainClass transfer = new MainClass(input);
+            MainClass transfer2 = new MainClass(transfer);
+            transfer.Main();
     }
 
     public void Output(string input, int input_Length, string input_Lowercase, string input_Sorted)

@@ -6,19 +6,17 @@ namespace Dale
     {
         public string Value { get; set; }
 
-        // Конструктор за замовчуванням
+
         public Overload()
         {
             Value = string.Empty;
         }
 
-        // Конструктор з параметрами
         public Overload(string value)
         {
             Value = value;
         }
 
-        // Конструктор копіювання
         public Overload(Overload other)
         {
             Value = other.Value;
@@ -32,21 +30,21 @@ namespace Dale
             return Value.ToUpper();
         }
 
-        public static Overload operator +(Overload left, Overload right)         // Перевантаження оператора додавання для двох Overload
+        public static Overload operator +(Overload left, Overload right)        
         {
             return new Overload(left.Value + right.Value);
         }
 
 
-        public static Overload operator +(Overload s, char c)         // Перевантаження оператора додавання для Overload і символу
+        public static Overload operator +(Overload s, char c)        
         {
             return new Overload(s.Value + c);
         }
-        public static string[] operator /(Overload s, char separator)         // Перевантаження оператора ділення (розділення рядка на частини)
+        public static string[] operator /(Overload s, char separator)      
         {
             return s.Value.Split(separator);
         }
-        public static Overload Add(params Overload[] items)         // Метод додавання для кількох рядків
+        public static Overload Add(params Overload[] items)        
         {
             string result = "";
             foreach (var item in items)
@@ -55,7 +53,7 @@ namespace Dale
             }
             return new Overload(result);
         }
-        public Overload RemoveEvenPositions()         // Метод для видалення символів на парних позиціях (індексація з 0)
+        public Overload RemoveEvenPositions()      
         {
             var result = "";
             for (int i = 0; i < Value.Length; i++)

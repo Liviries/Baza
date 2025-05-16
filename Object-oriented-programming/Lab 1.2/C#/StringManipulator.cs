@@ -13,7 +13,6 @@ public class MainClass {
     public MainClass(string input) 
     {
         this.input = input;
-        Main(input);
     }
 
     public MainClass(MainClass other) 
@@ -24,7 +23,7 @@ public class MainClass {
     ~MainClass() {
     }
 
-    public void Main(string input)
+    public void Main()
     {
       string input_Lowercase = input.ToLower();
       int input_Length = input.Length;
