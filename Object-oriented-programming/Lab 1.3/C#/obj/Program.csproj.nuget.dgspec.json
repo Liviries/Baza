@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/Liviries/VscProjects/Baza/Object-oriented-programming/Lab 1.1/C#/Program.csproj": {}
+    "/home/Liviries/VscProjects/Baza/Object-oriented-programming/Lab 1.3/C#/Program.csproj": {}
   },
   "projects": {
-    "/home/Liviries/VscProjects/Baza/Object-oriented-programming/Lab 1.1/C#/Program.csproj": {
+    "/home/Liviries/VscProjects/Baza/Object-oriented-programming/Lab 1.3/C#/Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/Liviries/VscProjects/Baza/Object-oriented-programming/Lab 1.1/C#/Program.csproj",
+        "projectUniqueName": "/home/Liviries/VscProjects/Baza/Object-oriented-programming/Lab 1.3/C#/Program.csproj",
         "projectName": "Program",
-        "projectPath": "/home/Liviries/VscProjects/Baza/Object-oriented-programming/Lab 1.1/C#/Program.csproj",
+        "projectPath": "/home/Liviries/VscProjects/Baza/Object-oriented-programming/Lab 1.3/C#/Program.csproj",
         "packagesPath": "/home/Liviries/.nuget/packages/",
-        "outputPath": "/home/Liviries/VscProjects/Baza/Object-oriented-programming/Lab 1.1/C#/obj/",
+        "outputPath": "/home/Liviries/VscProjects/Baza/Object-oriented-programming/Lab 1.3/C#/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/Liviries/.nuget/NuGet/NuGet.Config"

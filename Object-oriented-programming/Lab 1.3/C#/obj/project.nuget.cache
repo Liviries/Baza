@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vdZVSdgy+Us=",
+  "dgSpecHash": "b1vHjooH7Bg=",
   "success": true,
-  "projectFilePath": "/home/Liviries/VscProjects/Baza/Object-oriented-programming/Lab 1.1/C#/Program.csproj",
+  "projectFilePath": "/home/Liviries/VscProjects/Baza/Object-oriented-programming/Lab 1.3/C#/Program.csproj",
   "expectedPackageFiles": [
     "/home/Liviries/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.4/microsoft.aspnetcore.app.ref.9.0.4.nupkg.sha512"
   ],
