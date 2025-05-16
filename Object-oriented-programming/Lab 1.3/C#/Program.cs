@@ -6,7 +6,7 @@ namespace Chip
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             Console.Write("Enter a string for R2: ");
             string userInput = Console.ReadLine() ?? string.Empty;
