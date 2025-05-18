@@ -2,82 +2,64 @@ using System;
 
 namespace Dale
 {
-        public class LetterString : Overload
+    // Похідний клас "Символи"
+    public class LetterString : StringBase
     {
         public LetterString(string value) : base(value) { }
 
-        // Метод сортування рядка за зростанням
+        public override string ReplaceSpecial()
+        {
+            return Value.Replace("#", "!!");
+        }
+
         public void Sort()
         {
             Value = new string(Value.OrderBy(c => c).ToArray());
         }
-
-        // Метод отримання даних об'єкту
-        public string GetData()
-        {
-            return Value;
-        }
     }
-    public class Overload
+
+    // Базовий клас "Рядки"
+    public class StringBase
     {
-        public string Value { get; set; }
+        public string Value { get; protected set; } // обмеження set
 
-
-        public Overload()
+        public StringBase()
         {
             Value = string.Empty;
         }
 
-        public Overload(string value)
+        public StringBase(string value)
         {
             Value = value;
         }
 
-        public Overload(Overload other)
+        public StringBase(StringBase other)
         {
             Value = other.Value;
         }
-        public int Length()
+
+        // Віртуальна функція обчислення довжини
+        public virtual int Length()
         {
             return Value.Length;
         }
-        public string GetUpper()
-        {
-            return Value.ToUpper();
-        }
 
-        public static Overload operator +(Overload left, Overload right)
+        // Віртуальна функція заміни символу
+        public virtual string ReplaceSpecial()
         {
-            return new Overload(left.Value + right.Value);
+            return Value;
         }
+    }
 
+    // Похідний клас "Цифри"
+    public class DigitString : StringBase
+    {
+        public DigitString(string value) : base(value) { }
 
-        public static Overload operator +(Overload s, char c)
+        // Перевизначення функції заміни '3' на '11'
+        public override string ReplaceSpecial()
         {
-            return new Overload(s.Value + c);
-        }
-        public static string[] operator /(Overload s, char separator)
-        {
-            return s.Value.Split(separator);
-        }
-        public static Overload Add(params Overload[] items)
-        {
-            string result = "";
-            foreach (var item in items)
-            {
-                result += item.Value;
-            }
-            return new Overload(result);
-        }
-        public Overload RemoveEvenPositions()
-        {
-            var result = "";
-            for (int i = 0; i < Value.Length; i++)
-            {
-                if (i % 2 == 0)
-                    result += Value[i];
-            }
-            return new Overload(result);
+            return Value.Replace("3", "11");
         }
     }
 }

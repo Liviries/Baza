@@ -1,7 +1,5 @@
 using System;
-using System.Linq;
 using Dale;
-
 
 namespace Chip
 {
@@ -9,39 +7,29 @@ namespace Chip
     {
         public static void Main()
         {
-            Console.Write("Enter a string for R2: ");
-            string userInput = Console.ReadLine() ?? string.Empty;
+            // Робота з DigitString
+            Console.Write("Enter a string for DigitString: ");
+            string digitInput = Console.ReadLine() ?? string.Empty;
+            StringBase DS = new DigitString(digitInput);
 
-            Overload R1 = new Overload();
-            Overload R2 = new Overload(userInput);
-            Overload R3 = new Overload(R2);
+            Console.WriteLine("Original DigitString: " + DS.Value);
+            Console.WriteLine("Length of DigitString: " + DS.Length());
+            Console.WriteLine("DigitString after ReplaceSpecial: " + DS.ReplaceSpecial());
 
-            R2 = R2.RemoveEvenPositions();
-
-            R1 = R2 + R3;
-
-            Console.WriteLine("R2 (without even positions): " + R2.Value);
-            Console.WriteLine("R3 (copy): " + R3.Value);
-            Console.WriteLine("R1 (R2 + R3): " + R1.Value);
-
-
-            Console.WriteLine("R1 Uppercase: " + R1.GetUpper());
-            Console.WriteLine("R1 Length: " + R1.Length());
-
-            string[] parts = R1 / 'e';
-            Console.WriteLine("R1 split by 'e': " + string.Join(", ", parts));
-
-            Overload sum = Overload.Add(R1, R2, R3);
-            Console.WriteLine("Sum of R1, R2, R3: " + sum.Value);
-            
-                        // Робота з похідним класом
+            // Робота з LetterString
             Console.Write("Enter a string for LetterString: ");
             string letterInput = Console.ReadLine() ?? string.Empty;
-            LetterString LS = new LetterString(letterInput);
+            StringBase LS = new LetterString(letterInput);
 
-            LS.Sort();
-            Console.WriteLine("Sorted LetterString: " + LS.GetData());
+            Console.WriteLine("Original LetterString: " + LS.Value);
             Console.WriteLine("Length of LetterString: " + LS.Length());
+            Console.WriteLine("LetterString after ReplaceSpecial: " + LS.ReplaceSpecial());
+
+            if (LS is LetterString letterStr)
+            {
+                letterStr.Sort();
+                Console.WriteLine("Sorted LetterString: " + letterStr.Value);
+            }
         }
     }
 }
