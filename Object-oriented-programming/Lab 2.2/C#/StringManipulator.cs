@@ -38,7 +38,6 @@ namespace Dale
             Value = other.Value;
         }
 
-        // Віртуальна функція обчислення довжини
         public virtual int Length()
         {
             return Value.Length;
@@ -56,7 +55,6 @@ namespace Dale
     {
         public DigitString(string value) : base(value) { }
 
-        // Перевизначення функції заміни '3' на '11'
         public override string ReplaceSpecial()
         {
             return Value.Replace("3", "11");

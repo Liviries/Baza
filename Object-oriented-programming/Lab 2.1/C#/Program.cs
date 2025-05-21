@@ -34,7 +34,7 @@ namespace Chip
             Overload sum = Overload.Add(R1, R2, R3);
             Console.WriteLine("Sum of R1, R2, R3: " + sum.Value);
             
-                        // Робота з похідним класом
+                        
             Console.Write("Enter a string for LetterString: ");
             string letterInput = Console.ReadLine() ?? string.Empty;
             LetterString LS = new LetterString(letterInput);

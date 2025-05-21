@@ -4,16 +4,14 @@ using System.Linq;
 
 namespace Dale
 {
-    // Інтерфейс для формування рядка з перших символів усіх рядків тексту
     public interface IFirstCharStringBuilder
     {
         string BuildFirstCharString();
     }
 
-    // Клас-рядок
     public class SimpleString
     {
-        public string Value { get; } // лише для читання
+        public string Value { get; }
 
         public SimpleString(string value)
         {
@@ -23,7 +21,6 @@ namespace Dale
         public int Length() => Value.Length;
     }
 
-    // Клас-контейнер
     public class TextContainer : IFirstCharStringBuilder
     {
         private readonly List<SimpleString> lines = new();

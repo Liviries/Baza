@@ -9,7 +9,6 @@ namespace Chip
         {
             var container = new TextContainer();
 
-            // Введення рядків користувачем
             Console.WriteLine("Enter lines for the container (empty line to finish):");
             while (true)
             {
@@ -19,7 +18,6 @@ namespace Chip
                 container.Add(new SimpleString(input));
             }
 
-            // Вивід результатів операцій
             Console.WriteLine("String from first characters: " + container.BuildFirstCharString());
             var minLine = container.MinLine();
             Console.WriteLine("Shortest line: " + (minLine?.Value ?? "none"));
@@ -29,7 +27,6 @@ namespace Chip
             Console.WriteLine();
             Console.WriteLine($"Frequency of '{ch}': {container.CharFrequency(ch):F3}");
 
-            // Демонстрація видалення та очищення
             if (container.Lines.Count > 0)
             {
                 Console.WriteLine($"Removing the first line: {container.Lines[0].Value}");

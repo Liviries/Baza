@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nK3q7EvH7XM=",
+  "success": true,
+  "projectFilePath": "/home/Liviries/VscProjects/Baza/Object-oriented-programming/HW/Program.csproj",
+  "expectedPackageFiles": [
+    "/home/Liviries/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.4/microsoft.aspnetcore.app.ref.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,44 +1,37 @@
 using System;
-using Dale;
+using ExpressionLibrary;
 
-namespace Chip
+namespace ExpressionApp
 {
-    public class Program
+    class Program
     {
-        public static void Main()
+        static void Main(string[] args)
         {
-            var container = new TextContainer();
-
-            // Введення рядків користувачем
-            Console.WriteLine("Enter lines for the container (empty line to finish):");
-            while (true)
+            // Створюємо масив об'єктів
+            Calc[] calcs = new Calc[3];
+            calcs[0] = new Calc(2, 4, 10, 5);    // нормальний
+            calcs[1] = new Calc(10, 8, -30, 20); // від'ємне підкореневе
+            calcs[2] = new Calc(0, 0, 0, 41);   
+            
+            // Обробляємо кожен об'єкт у масиві
+            for (int i = 0; i < calcs.Length; i++)
             {
-                Console.Write("Line: ");
-                string input = Console.ReadLine() ?? "";
-                if (string.IsNullOrEmpty(input)) break;
-                container.Add(new SimpleString(input));
+                Console.WriteLine($"Object {i+1}: a={calcs[i].A}, b={calcs[i].B}, c={calcs[i].C}, d={calcs[i].D}");
+                
+                try
+                {
+                    double result = calcs[i].Calculate();
+                    Console.WriteLine($"Result: {result}");
+                }
+                catch (CalcException ex)
+                {
+                    Console.WriteLine($"Error: {ex.Message}");
+                }
+                
+                Console.WriteLine();
             }
-
-            // Вивід результатів операцій
-            Console.WriteLine("String from first characters: " + container.BuildFirstCharString());
-            var minLine = container.MinLine();
-            Console.WriteLine("Shortest line: " + (minLine?.Value ?? "none"));
-
-            Console.Write("Enter a character to calculate its frequency: ");
-            char ch = Console.ReadKey().KeyChar;
-            Console.WriteLine();
-            Console.WriteLine($"Frequency of '{ch}': {container.CharFrequency(ch):F3}");
-
-            // Демонстрація видалення та очищення
-            if (container.Lines.Count > 0)
-            {
-                Console.WriteLine($"Removing the first line: {container.Lines[0].Value}");
-                container.Remove(container.Lines[0]);
-                Console.WriteLine("After removal, string from first characters: " + container.BuildFirstCharString());
-            }
-
-            container.Clear();
-            Console.WriteLine("After clearing, shortest line: " + (container.MinLine()?.Value ?? "none"));
+            
+            Console.ReadKey();
         }
     }
 }

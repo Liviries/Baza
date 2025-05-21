@@ -6,7 +6,6 @@ namespace Dale
     {
         public LetterString(string value) : base(value) { }
 
-        // Метод сортування рядка за зростанням
         public void Sort()
         {
             Value = new string(Value.OrderBy(c => c).ToArray());
